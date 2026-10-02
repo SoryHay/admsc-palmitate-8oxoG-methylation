@@ -1,0 +1,23 @@
+# Container for Cellpose.
+# Part of the analysis code of Gospodinova et al., IJMS 2026 (admsc-palmitate-8oxoG-methylation). 
+
+FROM pytorch/pytorch:2.13.0-cuda12.6-cudnn9-runtime
+
+RUN pip install --no-cache-dir --break-system-packages \
+        "cellpose==4.2.1.1" \
+        tifffile \
+        imagecodecs \
+        scipy \
+        pandas \
+ && python -c "import torch; print('torch', torch.__version__, 'cuda build', torch.version.cuda)"
+
+ENV CELLPOSE_LOCAL_MODELS_PATH=/opt/cellpose_models
+RUN mkdir -p /opt/cellpose_models && \
+    python -c "\
+import numpy as np, os;\
+from cellpose import models;\
+m = models.CellposeModel(gpu=False);\
+m.eval(np.zeros((64,64), dtype=np.float32));\
+print('model weights cached at', os.environ['CELLPOSE_LOCAL_MODELS_PATH'])"
+
+WORKDIR /work

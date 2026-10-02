@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "admsc-palmitate-8oxoG-methylation"
+repository-code: "https://github.com/SoryHay/admsc-palmitate-8oxoG-methylation"
+license: MIT
+authors:
+  - {family-names: Gospodinova, given-names: Antonina, orcid: "https://orcid.org/0009-0006-8085-6037"}
+  - {family-names: Velichkov, given-names: Andrey}
+  - {family-names: Dimitrov, given-names: Nikolay}
+  - {family-names: Todorova, given-names: Krassimira, orcid: "https://orcid.org/0000-0002-4841-9156"}
+  - {family-names: Hayrabedyan, given-names: Soren, orcid: "https://orcid.org/0000-0002-2147-1982"}
+preferred-citation:
+  type: article
+  title: "Lipotoxic Palmitate Hyperpolarizes Mitochondria, Raises 8-oxo-dG Damage in Depleted mtDNA, and Converts Nuclear 5mC to 5hmC Genome-Wide in Human Adipose-Derived Mesenchymal Stem Cells"
+  journal: "International Journal of Molecular Sciences"
+  year: 2026
+  authors:
+    - {family-names: Gospodinova, given-names: Antonina}
+    - {family-names: Velichkov, given-names: Andrey}
+    - {family-names: Dimitrov, given-names: Nikolay}
+    - {family-names: Todorova, given-names: Krassimira}
+    - {family-names: Hayrabedyan, given-names: Soren}

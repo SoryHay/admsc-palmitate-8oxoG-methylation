@@ -1,0 +1,18 @@
+# DATA_SHARING_POLICY §7.2 — no human sequencing data or per-read/per-site tables in this repository
+*.pod5
+*.fast5
+*.fastq*
+*.fq
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.vcf*
+*.bcf
+*_extract.tsv
+*.bedmethyl*
+*.bed.gz
+*.ims
+*.tif
+*.tiff
