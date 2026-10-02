@@ -1,0 +1,55 @@
+{
+  "title": "admsc-palmitate-8oxoG-methylation: analysis code for nanopore 5mC/5hmC and 8-oxo-dG profiling of palmitate-treated human adipose-derived mesenchymal stem cells",
+  "upload_type": "software",
+  "license": "MIT",
+  "description": "Analysis code supporting the article \"Lipotoxic Palmitate Hyperpolarizes Mitochondria, Raises 8-oxo-dG Damage in Depleted mtDNA, and Converts Nuclear 5mC to 5hmC Genome-Wide in Human Adipose-Derived Mesenchymal Stem Cells\" (International Journal of Molecular Sciences, submitted 2026): basecalling and conversion of Oxford Nanopore R9.4.1 data (Guppy/Rerio, dorado, esox, modkit, minimap2), pooled 5mC and 5mC/5hmC estimation, 8-oxo-dG rates, 5mC around 8-oxo-dG, figure code and the image analysis of the mitochondrial network (Nellie, Cellpose). Processed data: https://doi.org/10.5281/zenodo.23111729; images: https://doi.org/10.5281/zenodo.23112401.",
+  "creators": [
+    {
+      "name": "Gospodinova, Antonina",
+      "affiliation": "Department of Translational Multi-Omics Technologies, Institute of Biology and Immunology of Reproduction \"Acad. Kiril Bratanov\", Bulgarian Academy of Sciences, Sofia, Bulgaria",
+      "orcid": "0009-0006-8085-6037"
+    },
+    {
+      "name": "Velichkov, Andrey",
+      "affiliation": "Department of Translational Multi-Omics Technologies, Institute of Biology and Immunology of Reproduction \"Acad. Kiril Bratanov\", Bulgarian Academy of Sciences, Sofia, Bulgaria"
+    },
+    {
+      "name": "Dimitrov, Nikolay",
+      "affiliation": "Department of Translational Multi-Omics Technologies, Institute of Biology and Immunology of Reproduction \"Acad. Kiril Bratanov\", Bulgarian Academy of Sciences, Sofia, Bulgaria"
+    },
+    {
+      "name": "Todorova, Krassimira",
+      "affiliation": "Department of Translational Multi-Omics Technologies, Institute of Biology and Immunology of Reproduction \"Acad. Kiril Bratanov\", Bulgarian Academy of Sciences, Sofia, Bulgaria",
+      "orcid": "0000-0002-4841-9156"
+    },
+    {
+      "name": "Hayrabedyan, Soren",
+      "affiliation": "Department of Translational Multi-Omics Technologies, Institute of Biology and Immunology of Reproduction \"Acad. Kiril Bratanov\", Bulgarian Academy of Sciences, Sofia, Bulgaria",
+      "orcid": "0000-0002-2147-1982"
+    }
+  ],
+  "keywords": [
+    "nanopore sequencing",
+    "DNA methylation",
+    "5-hydroxymethylcytosine",
+    "8-oxo-dG",
+    "esox",
+    "modkit",
+    "palmitate",
+    "adipose-derived mesenchymal stem cells",
+    "mitochondrial network",
+    "Nellie"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23111729",
+      "relation": "isSupplementedBy",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23112401",
+      "relation": "isSupplementedBy",
+      "scheme": "doi"
+    }
+  ]
+}
